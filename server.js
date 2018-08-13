@@ -159,7 +159,11 @@ const getPerformance = async ticker => {
     $(action)
       .find('td')
       .each((i, el) => {
-        dividendYield[`Y${i}`] = parseFloat(el.children[0].data);
+        if (el.children.length > 0) {
+          dividendYield[`Y${i}`] = parseFloat(el.children[0].data);
+        } else {
+          dividendYield[`Y${i}`] = null;
+        }
       });
     return { dividendYield };
   }
