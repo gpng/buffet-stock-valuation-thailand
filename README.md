@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> Data API for thai stocks as required for Buffet style valuation
+> Data API for thai stocks as required for Buffet style valuation. Data is scraped from Bangkok stocks on Morningstar on each call.
 
 ## Table of Contents
 
